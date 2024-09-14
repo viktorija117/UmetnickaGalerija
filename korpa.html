@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korpa - Umetnička Galerija</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="slike/ikonica.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">VAŠA KORPA</div>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="prodavnica.html">Prodavnica</a></li>
+                <li><a href="onama.html">O nama</a></li>
+                <li><a href="korpa.html">Korpa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="korpa-sekcija">
+        <button class="dugme" id="naruci-dugme1"><a  class="dugme" href="#naruci-dugme">&#9660</a></button>
+        <div class="stavke-korpe" id="stavke-korpe">
+            <!-- Stavke će biti dinamički dodate ovde -->
+        </div>
+        <div class="ukupno">
+            <h3>Ukupno: <span id="ukupna-cena">0</span>€</h3>
+            <button class="dugme" id="naruci-dugme">Naruči</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Umetnička Galerija. Sva prava zadržana.</p>
+    </footer>
+    <div id="iskacuci-prozor" class="iskacuci-prozor"></div>
+    <script src="script.js"></script>
+</body>
+</html>
